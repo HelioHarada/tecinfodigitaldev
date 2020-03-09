@@ -1,4 +1,4 @@
 const gulp = require('gulp');
-
-// gulp.src('src/img')
-// gulp.dest('')
+      imagein = require('gulp-imagemin')
+gulp.src('src/img')
+gulp.dest('')
